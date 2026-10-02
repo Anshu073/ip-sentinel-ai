@@ -67,10 +67,10 @@ Google Shopping's matching isn't perfect for smaller or regional brands, so a ni
 
 ## Tech stack
 
-Backend: Python, FastAPI, SQLite, APScheduler for the recurring re-scans.
-Frontend: Next.js, React, Tailwind.
-Data: SerpApi (Google Shopping, Google Reverse Image, Google Search), python-whois.
-AI: Groq (Llama 3) drafts the natural-language cease-and-desist notice, with a template fallback if no key is set. The fraud score itself is computed by a deterministic rule-based formula, not an LLM, so every score is explainable and reproducible.
+- Backend: Python, FastAPI, SQLite, APScheduler for the recurring re-scans.
+- Frontend: Next.js, React, Tailwind.
+- Data: SerpApi (Google Shopping, Google Reverse Image, Google Search), python-whois.
+- AI: Groq (Llama 3) drafts the natural-language cease-and-desist notice, with a template fallback if no key is set. The fraud score itself is computed by a deterministic rule-based formula, not an LLM, so every score is explainable and reproducible.
 
 ## Disclaimer
 
